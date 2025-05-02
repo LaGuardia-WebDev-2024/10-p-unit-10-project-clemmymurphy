@@ -1,14 +1,14 @@
 body {
-  background-color: black;
+  background-color: pink;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   margin-top: 10%;
   font-family: Georgia, serif;
 }
 
-html{
+html {
   height: 100%;
   width: 100%;
 }
@@ -25,22 +25,9 @@ html{
   align-items: flex-start;
   padding-bottom: 20px;
 }
-
 .pic{
-  height: 600px;
+  height:600px;
   width: 400px;
   object-fit: cover;
-  border: 1px solid black;
-}
-
-h2{
-  color: black;
-}
-
-#start{
-  text-align: left;
-}
-
-#end{
-  text-align: right;
+  border : 3px solid black;
 }
